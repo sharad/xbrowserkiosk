@@ -45,7 +45,7 @@ all: $(TARGET)
 
 # Link the executable
 $(TARGET): $(OBJS)
-	$(CC) -o $@ $(OBJS) $(LDFLAGS)
+	$(CC) -o $@ $(OBJS)  $(SURFCFLAGS) $(LDFLAGS) $(LIBS)
 
 # Compile source files
 %.o: %.c

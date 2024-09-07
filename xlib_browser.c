@@ -5,6 +5,22 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+
+#include <gdk/gdk.h>
+#include <gdk/gdkkeysyms.h>
+#include <gdk/gdkx.h>
+#include <gio/gunixfdlist.h>
+#include <glib/gstdio.h>
+#include <gtk/gtk.h>
+#include <gtk/gtkx.h>
+#include <gcr/gcr.h>
+#include <JavaScriptCore/JavaScript.h>
+#include <webkit2/webkit2.h>
+#include <X11/X.h>
+#include <X11/Xatom.h>
+#include <glib.h>
+
+
 int main(int argc, char *argv[])
 {
     Display *dpy;
